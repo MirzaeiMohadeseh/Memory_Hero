@@ -14,9 +14,11 @@
         android:layout_height="180dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/btn_state"
         android:elevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/panel3"
         app:layout_constraintEnd_toStartOf="@+id/panel2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,11 +28,15 @@
         android:id="@+id/panel2"
         android:layout_width="180dp"
         android:layout_height="180dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="24dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/btn_state"
         android:elevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/panel4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/panel1"
         app:layout_constraintTop_toBottomOf="@+id/tvScore" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -38,7 +44,8 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/btn_state"
         android:elevation="10dp"
         app:layout_constraintEnd_toStartOf="@+id/panel4"
@@ -50,11 +57,13 @@
         android:id="@+id/panel4"
         android:layout_width="180dp"
         android:layout_height="180dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginTop="24dp"
         android:background="@drawable/btn_state"
         android:elevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/panel3"
         app:layout_constraintTop_toBottomOf="@+id/panel2" />
 
     <TextView
