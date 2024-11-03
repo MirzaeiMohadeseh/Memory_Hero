@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TestHero"
+rootProject.name = "MemoryHero"
 include(":app")
- 
